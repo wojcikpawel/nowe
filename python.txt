@@ -1,0 +1,11 @@
+a = input("Podaj liczbe: ")
+b = input("Podaj liczbe: ")
+print("Pierwsza liczba to: "),a
+print("Druga liczba to: "),b
+print("Suma liczb to: "),a+b
+if (a==b):
+  print("Liczby sa rowne")
+elif (a>b):
+  print("Liczba a jest wieksza od b")
+else:
+  print("Liczba a jest mniejsza od b")
